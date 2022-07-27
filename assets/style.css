@@ -1,0 +1,274 @@
+header.corona {
+    padding-top: 10rem;
+    padding-bottom: calc(10rem - 3rem);
+    background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("http://localhost/Vaccine/img/corona.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+  }
+.logo{
+  color: #fff;
+  text-align: center;
+}
+  .ms-auto {
+    margin-left: auto !important;
+  }
+  .text-color {
+    color: rgba(1, 2, 10, 0.75) !important;
+  }
+
+  .koment{
+
+    width: (100% - 250px);
+    margin-top: auto;
+    padding: 20px;
+    margin-left: 250px;
+    background: rgb(59, 223, 9);
+    background-position: center;
+    background-size: cover;
+    height: 0 auto;
+    transition: 0.5s;
+  }
+  .koment .kalimat p{
+    background: rgb(243, 243, 231);
+    padding: 15px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    opacity: 0.8;
+    color:rgb(29, 31, 29)
+  }
+  
+  
+  *{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+body.corona{
+    height: 100vh;
+    background-image: url("http://localhost/Vaccine/img/vaksin.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.login{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    padding: 20px 25px;
+    width: 300px;
+
+    background-color: rgba(0,0,0,.7);
+    box-shadow: 0 0 10px rgba(255,255,255,.3);
+}
+.login h1{
+    text-align: left;
+    color: #fafafa;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    border-bottom: 4px solid #2979ff;
+}
+.login label{
+    text-align: left;
+    color: #90caf9;
+}
+.akun{
+ 
+  color:#fff;
+}
+
+.login form input {
+    width: calc(100% - 20px);
+    padding: 8px 10px;
+    margin-bottom: 15px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid #2979ff;
+    color: #fff;
+    font-size: 20px;
+    
+}
+.login form button{
+    width: 100%;
+    padding: 5px 0;
+    border: none;
+    background-color:#2979ff;
+    font-size: 18px;
+    color: #fafafa;
+  
+}
+.sidebar .profile_info h5{
+  color: #ccc;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+.sidebar .profile_info h6{
+  color: #ccc;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+.sidebar .profile_info .profile_image{
+  width: 100px;
+  height: 100px;
+ 
+  margin-bottom: 10px;
+}
+  
+.profile_info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.left_area h1{
+  color: #fff;
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 22px;
+  font-weight: 900;
+}
+
+.left_area span{
+  color: #19B3D3;
+}
+.nav_bar .foto{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.content{
+  background: #9aa0a1;
+  width: (100% - 90px);
+  margin-top: 60px;
+  padding: 210px;
+  margin-left: 230px;
+ 
+  background-position: center;
+}
+
+.desc {
+  padding: 15px;
+  text-align: center;
+  margin-left: -30px;
+}
+
+.gambar{
+  background-image: url("http://localhost/Vaccine/img/01.jpg");
+  background-size: cover;
+  height: auto;
+  transition: 0.5s;
+}
+
+.content .card {
+  background: #fff;
+  padding: 20px;
+  margin-bottom: 5px;
+  
+  text-align: center;
+}
+.admin{
+  background: rgb(191, 234, 237);
+  width: (100% - 100px);
+  margin-top: 40px;
+  padding: 80px;
+  margin-left: 200px;
+  height: 670px;
+}
+.content .card p{
+  padding: 20px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  opacity: 0.8;
+  text-align: center;
+}
+
+.content1 .daftar{
+  background: gray;
+  width: (100% - 100px);
+  margin-top: 10px;
+  padding: 80px;
+  margin-left: 200px;
+  height: 0 auto;
+}
+
+.content1 .kontak{
+  background: gray;
+  width: (100% - 100px);
+  margin-top: 10px;
+  padding: 80px;
+  margin-left: 200px;
+  height: 0 auto;
+}
+
+.content1 .info{
+  background: #cccccc;
+  width: (100% - 100px);
+  margin-top: 10px;
+  padding: 80px;
+  margin-left: 220px;
+  height: 0 auto;
+}
+
+.logout_btn{
+  padding: 5px;
+ 
+  text-decoration: none;
+  float: right;
+  margin-top: -30px;
+  margin-right: 40px;
+  border-radius: 2px;
+  font-size: 20px;
+  font-weight: 600;
+  font-weight: 700;
+  color: whitesmoke;
+  transition-property: background;
+}
+.sidebar a{
+  color: #fff;
+  display: block;
+  width: 100%;
+  line-height: 60px;
+  text-decoration: none;
+  padding-left: 40px;
+  box-sizing: border-box;
+}
+
+.sidebar a:hover{
+  background: #00080a;
+}
+
+.sidebar i{
+  padding-right: 10px;
+}
+  
+.sidebar{
+  z-index: 1;
+  top: 0;
+  background: #2f323a;
+  margin-top: 70px;
+  padding-top: 30px;
+  position: fixed;
+  left: 0;
+  width: 250px;
+  height: calc(100% - 9%);
+  transition: 0.5s;
+  transition-property: left;
+  overflow-y: auto;
+}
+
+.judul{
+  z-index: 1;
+  position: fixed;
+  background: #22242A;
+  padding: 20px;
+  width: calc(100% - 0%);
+  top: 0;
+  height: 70px;
+}
